@@ -10,7 +10,6 @@ from fake_useragent import UserAgent
 from keyboards.default.start import start_defaultKB
 from loader import dp
 from states.WBparcerGetArticle import WBState
-from utils import wb_parser
 
 
 class WBParser(object):
