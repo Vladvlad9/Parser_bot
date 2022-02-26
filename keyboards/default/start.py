@@ -8,8 +8,8 @@ async def start_defaultKB() -> ReplyKeyboardMarkup:
         one_time_keyboard=False,
         keyboard=[
             [
-                KeyboardButton(text="Название бренда"),
-                KeyboardButton(text="Название товара")
+                KeyboardButton(text="/get_brand"),
+                KeyboardButton(text="/get_title")
             ]
         ]
     )
